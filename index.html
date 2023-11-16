@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!-- Configuración del documento -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cómete Málaga by Teresa</title>
+
+  <!-- Icono de la pestaña -->
+  <link rel="icon" type="image/png" href="https://www.thefork.es/statics/thefork-logotype.svg" />
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,700&family=Roboto:wght@100&display=swap" rel="stylesheet" />
+
+  <!-- Iconos y estilos externos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-...." crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+
+  <!-- Estilos locales -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a id="logo" class="navbar-brand" href="https://www.instagram.com/tapeandoenmalaga/" target="_blank">CómeteMálaga</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Menú de navegación -->
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+          <a class="nav-link" href="#">Colaboraciones</a>
+          <a class="nav-link" href="#">Mejor valorados</a>
+          <a class="nav-link" href="https://www.google.com/maps/place/M%C3%A1laga" target="_blank">Ubicación</a>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Cabecera con imagen -->
+  <div class="cabecera-img-container">
+    <div class="texto-encima">
+      <p class="texto-grande">
+        Disfruta de la experiencia gastronómica malagueña conmigo.
+      </p>
+    </div>
+    <img src="https://images.unsplash.com/photo-1532270441355-095a26af8a99?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      alt="imagen @tapeandoenmalaga" class="cabecera-img" />
+  </div>
+
+  <!-- Sección de restaurantes recomendados -->
+  <header>
+    <section>
+      <div class="traba-container">
+        <p class="traba-texto">Mis restaurantes de visita obligada:</p>
+
+        <!-- Galería de imágenes -->
+        <div class="galeria-container">
+          <div class="galeria-row">
+            <!-- Imagen 1 -->
+            <div class="imagen-con-texto">
+              <a href="https://www.oleorestaurante.es/" target="_blank" rel="noopener noreferrer">
+                <img src="img/food4.jpg" alt="Descripción 1" class="galeria-img" />
+                <div class="texto-encima-imagen">Óleo Restaurante, Cocina Mediterránea Sushi Bar</div>
+              </a>
+            </div>
+
+            <!-- Imagen 2 -->
+            <div class="imagen-con-texto">
+              <a href="https://lacavernamalaga.com/" target="_blank" rel="noopener noreferrer">
+                <img src="img/food5.jpg" alt="Descripción 2" class="galeria-img" />
+                <div class="texto-encima-imagen">La Caverna Málaga - Bar de tapas</div>
+              </a>
+            </div>
+
+            <!-- Imagen 3 -->
+            <div class="imagen-con-texto">
+              <a href="https://www.instagram.com/grupocasalolamalaga/" target="_blank" rel="noopener noreferrer">
+                <img src="img/food6.jpg" alt="Descripción 3" class="galeria-img" />
+                <div class="texto-encima-imagen">Casa Lola</div>
+              </a>
+            </div>
+          </div>
+
+          <div class="galeria-row">
+            <!-- Imagen 4 -->
+            <div class="imagen-con-texto">
+              <a href="https://www.facebook.com/people/Estrag%C3%B3n-Torremolinos/100063585399831/" target="_blank" rel="noopener noreferrer">
+                <img src="img/food1.jpg" alt="Descripción 4" class="galeria-img" />
+                <div class="texto-encima-imagen">Estragón de Caléndula</div>
+              </a>
+            </div>
+
+            <!-- Imagen 5 -->
+            <div class="imagen-con-texto">
+              <a href="https://www.uvedobletaberna.com/" target="_blank" rel="noopener noreferrer">
+                <img src="img/food2.jpg" alt="Descripción 5" class="galeria-img" />
+                <div class="texto-encima-imagen">Uvedoble Taberna</div>
+              </a>
+            </div>
+
+            <!-- Imagen 6 -->
+            <div class="imagen-con-texto">
+              <a href="https://erpichidecai.com/" target="_blank" rel="noopener noreferrer">
+                <img src="img/food3.jpg" alt="Descripción 6" class="galeria-img" />
+                <div class="texto-encima-imagen">Er Pichi de Cái Huelin</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- Sección principal con video y texto lateral -->
+  <main>
+    <section>
+      <!-- Contenedor del video -->
+      <div class="video-container">
+        <video width="640" height="360" controls loop>
+          <source src="img/IMG_3559.mov" type="video/mp4">
+          Tu navegador no soporta el tag de video.
+        </video>
+
+        <!-- Texto lateral -->
+        <div class="texto-lateral">
+          <p>
+            Si eres amante del buen tapeo y las cervezas malagueñas, ¡este es tu lugar!
+            Sigue nuestras aventuras gastronómicas en Instagram para descubrir las joyas culinarias de Málaga.
+            Prometemos mantenerte entretenido con recomendaciones frescas cada semana.
+            ¡Atrévete a unirte a nuestro festín!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Sección: Redes sociales -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a class="btn text-white btn-floating m-1 rounded-circle" style="background-color: #3b5998;" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+          <!-- Twitter -->
+          <a class="btn text-white btn-floating m-1 rounded-circle" style="background-color: #55acee;" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+          <!-- Google -->
+          <a class="btn text-white btn-floating m-1 rounded-circle" style="background-color: #dd4b39;" href="#!" role="button"><i class="fab fa-google"></i></a>
+
+          <!-- Instagram -->
+          <a class="btn text-white btn-floating m-1 rounded-circle" style="background-color: #ac2bac;" href="https://www.instagram.com/tapeandoenmalaga/" target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+
+          <!-- Linkedin -->
+          <a class="btn text-white btn-floating m-1 rounded-circle" style="background-color: #0082ca;" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+
+          <!-- Github -->
+          <a class="btn text-white btn-floating m-1 rounded-circle" style="background-color: #333333;" href="https://github.com/MTeresaCuesta" target="_blank" role="button"><i class="fab fa-github"></i></a>
+        </section>
+        
+      </div>
+     
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2023 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/">tereess24@gmail.com</a>
+      </div>
+      
+    </footer>
+
+    
+  </body>
+
+</html>
