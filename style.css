@@ -120,3 +120,50 @@ video {
   margin-left: 80px;
   text-align: justify;
 }
+@media (max-width: 500px){
+  .texto-encima {
+    display: none;
+  }
+  
+
+  /* Oculta el texto original en una pantalla de 390x844 píxeles */
+  .traba-container.mis-favoritos .traba-texto {
+    display: none;
+  }
+  .galeria-row {
+    flex-direction: column;
+  }
+
+  /* Ajusta el estilo de las imágenes para ocupar el ancho completo y eliminar el margen inferior */
+ 
+
+  /* Ajusta el estilo del texto lateral para ocupar el ancho completo y reducir el margen */
+  .texto-lateral p {
+    margin-left: 10px;
+    margin-right: 40px;
+    padding: 20px;
+    background-color: #f7f7f7; /* Tonalidad gris claro de fondo */
+    border: 1px solid #ddd; /* Borde delgado */
+    border-radius: 15px; /* Esquinas redondeadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    color: #555; /* Color de texto */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Tipografía elegante */
+    font-size: 16px; /* Tamaño de la fuente */
+    line-height: 1.6; /* Espaciado entre líneas */
+    text-align: left; /* Alineación izquierda del texto */
+}
+
+
+
+  /* Estilo adicional para el video en una pantalla de 390x844 píxeles */
+  .video-container video {
+    display: none;
+    width: 80%; /* Puedes ajustar el porcentaje según tu preferencia */
+    height: auto;
+    margin-left: 23px;
+}
+
+
+ 
+
+}
