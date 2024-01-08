@@ -120,3 +120,41 @@ video {
   margin-left: 80px;
   text-align: justify;
 }
+@media only screen and (width: 390px) and (height: 844px) {
+  .texto-encima {
+    display: none;
+  }
+  
+
+  /* Oculta el texto original en una pantalla de 390x844 píxeles */
+  .traba-container.mis-favoritos .traba-texto {
+    display: none;
+  }
+  .galeria-row {
+    flex-direction: column;
+  }
+
+  /* Ajusta el estilo de las imágenes para ocupar el ancho completo y eliminar el margen inferior */
+ 
+  .video-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Ajusta el estilo del texto lateral para ocupar el ancho completo y reducir el margen */
+  .texto-lateral p {
+    margin-left: 5px;
+    margin-right: 60px;
+  }
+
+  /* Estilo adicional para el video en una pantalla de 390x844 píxeles */
+  .video-container video {
+    width: 80%; /* Puedes ajustar el porcentaje según tu preferencia */
+    height: auto;
+    margin-left: 23px;
+  }
+
+ 
+
+}
